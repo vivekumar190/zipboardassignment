@@ -1,0 +1,145 @@
+.questioncard{
+    padding: 20px 24px 20px 10px;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: DM Sans;
+    border-top: solid;
+    border-bottom: solid;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 39px;
+letter-spacing: -0.02em;
+
+max-height: 1000px; 
+overflow: hidden;
+transition: max-height 0.3s ease-in-out; 
+margin-bottom: 25px;
+}
+.answer{
+margin-top: 30px;
+font-weight: 400;
+font-size: 22px;
+line-height: 29px;
+
+opacity: 0;
+transition: opacity 0.5s ease-in-out;
+}
+.questioncardcollapsed{
+    padding: 20px 24px 20px 10px;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: DM Sans;
+    border-top: solid;
+    border-bottom: solid;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 39px;
+letter-spacing: -0.02em;
+
+    margin-bottom: 25px;
+    max-height: 85px;
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+}
+.toggle-icon {
+    width: 24px;
+    height: 24px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.8s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out, transform 0.3s ease-in-out;
+}
+  
+/* .rotate {
+transform: rotate(180deg);
+}
+.unrotate {
+transform: rotate(0deg);
+} */
+
+.fade-in {
+    opacity: 1;
+  }
+.fade-out {
+    opacity: 0;
+}
+@media screen and (max-width: 768px) {
+    .questioncard{
+        padding: 20px 24px 20px 10px;
+        justify-content: center;
+        align-items: flex-start;
+        font-family: DM Sans;
+        border-top: solid;
+        border-bottom: solid;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+
+    max-height: 1000px; 
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out; 
+    margin-bottom: 25px;
+    }
+    .answer{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    }
+    .questioncardcollapsed{
+        padding: 20px 24px 20px 10px;
+        justify-content: center;
+        align-items: flex-start;
+        font-family: DM Sans;
+        border-top: solid;
+        border-bottom: solid;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+
+        margin-bottom: 6px;
+        max-height: 120px;
+        transition: max-height 0.3s ease-in-out;
+        overflow: hidden;
+    }
+    .toggle-icon {
+        width: 24px;
+        height: 24px;
+        font-size: 24px;
+        transition: transform 0.8s ease-in-out;
+        opacity: 0;
+        transition: opacity 0.8s ease-in-out, transform 0.9s ease-in-out;
+    }
+      
+    /* .rotate {
+    transform: rotate(180deg);
+    }
+    .unrotate {
+    transform: rotate(0deg);
+    } */
+    
+    .fade-in {
+        opacity: 1;
+      }
+    .fade-out {
+        opacity: 0;
+    }
+}
